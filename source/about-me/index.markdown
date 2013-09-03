@@ -11,13 +11,14 @@ footer: false
 
 
 
-Contact Me
+联系方式
 ============
-* Email: <xsmumu@gmail.com>, <879248578@qq.com>
-* Sina-Weibo: [@小煞-Xs](http://weibo.com/acexs)
+* 电子邮箱: <xsmumu@gmail.com>, <879248578@qq.com>
+* 新浪微博: [小煞-Xs](http://weibo.com/acexs)
+* 百度网盘: [分享主页](http://pan.baidu.com/share/home?uk=756034760#category/type=0)
 
 
 
-About this blog
+关于本博
 ===============
 * 记录生活的点点滴滴
