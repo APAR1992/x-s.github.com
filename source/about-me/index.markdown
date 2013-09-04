@@ -21,4 +21,5 @@ footer: false
 
 关于本博
 ===============
-* 记录生活的点点滴滴
+* Record life bit by bit--记录生活的点点滴滴
+* Each Day is a new Begining--每天都是一个新的开始
