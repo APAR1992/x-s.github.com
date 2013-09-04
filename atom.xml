@@ -4,7 +4,7 @@
   <title><![CDATA[Xs Blog]]></title>
   <link href="http://X-s.github.io/atom.xml" rel="self"/>
   <link href="http://X-s.github.io/"/>
-  <updated>2013-09-03T18:29:31+08:00</updated>
+  <updated>2013-09-04T18:08:43+08:00</updated>
   <id>http://X-s.github.io/</id>
   <author>
     <name><![CDATA[Xs]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ Android开发环境搭建之sun-java6-jdk]]></title>
+    <link href="http://X-s.github.io/blog/2013/09/04/installjdk6/"/>
+    <updated>2013-09-04T17:57:00+08:00</updated>
+    <id>http://X-s.github.io/blog/2013/09/04/installjdk6</id>
+    <content type="html"><![CDATA[<ul>
+<li>现在的Ubuntu源默认已经没有sun-java6的安装包了</li>
+<li>所以需要手动添加一条源来安装</li>
+</ul>
+
+
+<!-- more -->
+
+
+<p>*方法如下：</p>
+
+<p>1、添加这个源：
+deb <a href="http://us.archive.ubuntu.com/ubuntu/">http://us.archive.ubuntu.com/ubuntu/</a> hardy multiverse。</p>
+
+<p>方法：</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo gedit /etc/apt/sources.list</span></code></pre></td></tr></table></div></figure>
+
+
+<p>打开源列表，在最后一行添加</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>deb http://us.archive.ubuntu.com/ubuntu/ hardy multiverse</span></code></pre></td></tr></table></div></figure>
+
+
+<p>保存退出。</p>
+
+<p>2、sudo apt-get update</p>
+
+<p>3、sudo apt-get install sun-java6-jdk</p>
+
+<p>中途会出两个对话框，都选OK，安装完后可以查看版本，如果看到如下信息再说明安装OK</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[教你在Github上搭建Octopress博客]]></title>
