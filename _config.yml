@@ -64,6 +64,10 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # Weibo
 weibo_user: acexs
 
+# duoshuo comments
+duoshuo_comments: true
+duoshuo_short_name: acexs
+
 # Github repositories
 github_user: X-s
 github_repo_count: 3
@@ -92,8 +96,8 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: ace879248578
-disqus_show_comment_count: true
+disqus_short_name: 
+disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id:

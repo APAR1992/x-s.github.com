@@ -2,7 +2,7 @@
 layout: post
 title: "教你在Github上搭建Octopress博客"
 date: 2013-09-03 15:56
-comments: false
+comments: true
 categories: Github
 ---
 最近几天突然想搭建一个新博客了，之前一直在用新浪博客总感觉没有一种归属感，所以这次便利用Github提供的Pages来搭建一个Octopress开源博客。
