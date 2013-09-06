@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Linux | Xs Blog]]></title>
   <link href="http://X-s.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://X-s.github.io/"/>
-  <updated>2013-09-05T19:00:02+08:00</updated>
+  <updated>2013-09-06T21:01:24+08:00</updated>
   <id>http://X-s.github.io/</id>
   <author>
     <name><![CDATA[Xs]]></name>
@@ -89,7 +89,7 @@ sudo umount -l /isodevice
 </ul>
 
 
-<p><img src="/media/installlinux/other.png" alt="" /></p>
+<p><img src="/media/2013-09-05-installlinux/other.png" alt="" /></p>
 
 <ul>
 <li><p>之后按照自己的意愿手动编辑分区信息即可</p></li>
@@ -112,7 +112,7 @@ initrd (hd0,0)/initrd.lz
 </ul>
 
 
-<p><img src="/media/installlinux/easybcd.png" alt="" /></p>
+<p><img src="/media/2013-09-05-installlinux/easybcd.png" alt="" /></p>
 
 <p>重启，选“NeoGrub Bootloader”进入live cd</p>
 
