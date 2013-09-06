@@ -62,7 +62,7 @@ sudo umount -l /isodevice
 
 * 双击桌面的图标“安装”开始安装，下面就直接下一步，下一步，安装时“分配磁盘空间”这一步，记得选择第三项“其他”
 
-![](/media/installlinux/other.png)
+![](/media/2013-09-05-installlinux/other.png)
 
 * 之后按照自己的意愿手动编辑分区信息即可
 
@@ -82,7 +82,7 @@ kernel (hd0,0)/vmlinuz boot=casper iso-scan/filename=/ubuntu-13.10-desktop-i386.
 initrd (hd0,0)/initrd.lz
 ```
 
-![](/media/installlinux/easybcd.png)
+![](/media/2013-09-05-installlinux/easybcd.png)
 
 重启，选“NeoGrub Bootloader”进入live cd
 
