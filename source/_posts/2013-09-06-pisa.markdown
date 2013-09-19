@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[转]什么叫真正的匹萨拔丝？"
+title: "什么叫真正的匹萨拔丝？"
 date: 2013-09-06 20:33
 comments: true
 categories: Life
