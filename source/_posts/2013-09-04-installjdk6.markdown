@@ -6,29 +6,23 @@ comments: true
 categories: Android
 ---
 * 现在的Ubuntu源默认已经没有sun-java6的安装包了
-* 所以需要手动添加一条源来安装
+* 所以需要手动下载来安装
 
 <!-- more -->
 * 方法如下：
+* 适用于64位Linux
 
-1、添加这个源：
-```
-deb http://us.archive.ubuntu.com/ubuntu/ hardy multiverse。
-```
+1、下载`jdk-6u45-linux-x64.bin`：
 
-添加方法：
-```
-sudo gedit /etc/apt/sources.list
-```
-打开源列表，在最后一行添加
-```
-deb http://us.archive.ubuntu.com/ubuntu/ hardy multiverse
-```
+[点我下载](http://pan.baidu.com/s/11MLHE)
 
-保存退出。
+2、将下载下来的文件放在任意位置，然后输入：
+```
+sudo chmod 777 jdk-6u45-linux-x64.bin
+./jdk-6u45-linux-x64.bin
+```
+   只要下载的jdk安装包没有损坏就能正常解压，最后会有`Done!`的提示
 
-2、`sudo apt-get update`
+3、接下来进入`jdk-6u45-linux-x64`目录，将里面的`bin`目录加入环境变量即可
 
-3、`sudo apt-get install sun-java6-jdk`
-
-中途会出两个对话框，都选OK，安装完后可以输入`java -version`查看版本
+4、执行`java -version`查看是否安装成功
