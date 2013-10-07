@@ -8,8 +8,9 @@
 
 	
 	<meta name="description" content="Android开发环境搭建之sun-java6-jdk 现在的Ubuntu源默认已经没有sun-java6的安装包了
-所以需要手动添加一条源来安装 方法如下： 1、添加这个源： 1
-deb http://us.archive.ubuntu.com/ubuntu/ hardy multiverse &hellip;">
+所以需要手动下载来安装 方法如下：
+适用于64位Linux 1、下载jdk-6u45-linux-x64.bin： 点我下载 2、将下载下来的文件放在任意位置，然后输入： 1
+2 &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -90,7 +91,7 @@ deb http://us.archive.ubuntu.com/ubuntu/ hardy multiverse &hellip;">
 	<h1 class="title" itemprop="name">Android开发环境搭建之sun-java6-jdk</h1>
 	<div class="entry-content" itemprop="articleBody"><ul>
 <li>现在的Ubuntu源默认已经没有sun-java6的安装包了</li>
-<li>所以需要手动添加一条源来安装</li>
+<li>所以需要手动下载来安装</li>
 </ul>
 
 
@@ -99,34 +100,27 @@ deb http://us.archive.ubuntu.com/ubuntu/ hardy multiverse &hellip;">
 
 <ul>
 <li>方法如下：</li>
+<li>适用于64位Linux</li>
 </ul>
 
 
-<p>1、添加这个源：</p>
+<p>1、下载<code>jdk-6u45-linux-x64.bin</code>：</p>
+
+<p><a href="http://pan.baidu.com/s/11MLHE">点我下载</a></p>
+
+<p>2、将下载下来的文件放在任意位置，然后输入：</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>deb http://us.archive.ubuntu.com/ubuntu/ hardy multiverse。</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo chmod 777 jdk-6u45-linux-x64.bin
+</span><span class='line'>./jdk-6u45-linux-x64.bin</span></code></pre></td></tr></table></div></figure>
 
 
-<p>添加方法：</p>
+<p>   只要下载的jdk安装包没有损坏就能正常解压，最后会有<code>Done!</code>的提示</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>sudo gedit /etc/apt/sources.list</span></code></pre></td></tr></table></div></figure>
+<p>3、接下来进入<code>jdk-6u45-linux-x64</code>目录，将里面的<code>bin</code>目录加入环境变量即可</p>
 
-
-<p>打开源列表，在最后一行添加</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>deb http://us.archive.ubuntu.com/ubuntu/ hardy multiverse</span></code></pre></td></tr></table></div></figure>
-
-
-<p>保存退出。</p>
-
-<p>2、<code>sudo apt-get update</code></p>
-
-<p>3、<code>sudo apt-get install sun-java6-jdk</code></p>
-
-<p>中途会出两个对话框，都选OK，安装完后可以输入<code>java -version</code>查看版本</p>
+<p>4、执行<code>java -version</code>查看是否安装成功</p>
 </div>
 
 </article>
